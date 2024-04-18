@@ -12,6 +12,8 @@
             <ColumnDefinition Width="183*"/>
             <ColumnDefinition Width="617*"/>
         </Grid.ColumnDefinitions>
+        <Button Grid.Column="1" Content="Lilting Lullaby" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="91" Click="BtnZzz_Click"/>
+        <Label Content="Idle Time: &#xA;" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Name="LblIdleTime"/>
 
     </Grid>
 </Window>
