@@ -102,7 +102,8 @@ namespace PCgoZzz
                 timer.Stop();
 
                 // Do something when the timer reaches 0
-                MessageBox.Show("Timer reached 0!");
+                // Put the PC to sleep
+                SetSuspendState(false, false, false);
 
                 // Enable Set Timer button and disable Stop button
                 Dispatcher.Invoke(() =>
