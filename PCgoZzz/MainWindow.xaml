@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PCgoZzz"
         mc:Ignorable="d"
-        Title="PCgoZzz" Height="450" Width="800">
+        Title="PCgoZzz" Height="450" Width="800"
+        Icon="Images\Lillia_Lilting_Lullaby.ico">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <StackPanel Orientation="Horizontal" Margin="0,0,0,35">
                 <Label Content="Lilting Lullaby Timer" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-                <Image HorizontalAlignment="Center" Height="35" Margin="0,0,0,0" VerticalAlignment="Top" Width="35" Source="/Images/Lillia_Lilting_Lullaby.png"/>
+                <Image HorizontalAlignment="Center" Height="35" Margin="0,0,0,0" VerticalAlignment="Top" Width="35" Source="/Images/Lillia_Lilting_Lullaby.ico"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
                 <Label Content="Hours:" Margin="0,0,5,0"/>
